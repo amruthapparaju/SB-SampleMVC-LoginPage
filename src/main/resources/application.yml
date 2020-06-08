@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver: com.mysql.cj.jdbc.Driver
+    password: mysql123
+    url: jdbc:mysql://localhost:3306/user_info?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    
+  application:
+    name: LOGIN--PAGE  mvc:    view:      prefix: /WEB-INF/view/
+      suffix:  .jsp
+server:
+  port: 9095
+
+  
