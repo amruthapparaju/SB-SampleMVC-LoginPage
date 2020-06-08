@@ -22,6 +22,7 @@ public class LoginController {
 	
 	@GetMapping("/login.htm")  //to handler initial phase request
 	public   String  showForm(@ModelAttribute("login") LoginVo cmd) {
+		System.out.println("hello");
 		return "login_form";
 	}
 	
